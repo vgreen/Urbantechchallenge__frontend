@@ -1,0 +1,19 @@
+
+@import '../../../vars';
+
+.Error{
+    margin-top: 50px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    @include font-regular;
+
+    h1{
+        margin-top: 60px;
+        font-size: 20pt;
+    }
+}
